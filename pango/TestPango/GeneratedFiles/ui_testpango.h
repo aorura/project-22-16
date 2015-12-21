@@ -39,6 +39,17 @@ public:
     QHBoxLayout *horizontalLayout_2;
     QFrame *frame;
     QHBoxLayout *horizontalLayout;
+    QGridLayout *gridLayout_2;
+    QPushButton *pushButton_6;
+    QPushButton *pushButton_7;
+    QPushButton *pushButton_8;
+    QPushButton *pushButton_9;
+    QPushButton *pushButton_2;
+    QPushButton *pushButton_4;
+    QPushButton *pushButton_3;
+    QPushButton *pushButton;
+    QPushButton *pushButton_5;
+    QPushButton *pushButton_10;
     QLabel *labelPixmap;
     QGroupBox *groupBox;
     QGridLayout *gridLayout;
@@ -91,7 +102,7 @@ public:
     {
         if (TestPangoClass->objectName().isEmpty())
             TestPangoClass->setObjectName(QString::fromUtf8("TestPangoClass"));
-        TestPangoClass->resize(905, 724);
+        TestPangoClass->resize(905, 595);
         centralWidget = new QWidget(TestPangoClass);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         horizontalLayout_2 = new QHBoxLayout(centralWidget);
@@ -106,6 +117,62 @@ public:
         horizontalLayout->setSpacing(6);
         horizontalLayout->setContentsMargins(11, 11, 11, 11);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        gridLayout_2 = new QGridLayout();
+        gridLayout_2->setSpacing(6);
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
+        pushButton_6 = new QPushButton(frame);
+        pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
+
+        gridLayout_2->addWidget(pushButton_6, 5, 0, 1, 1);
+
+        pushButton_7 = new QPushButton(frame);
+        pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
+
+        gridLayout_2->addWidget(pushButton_7, 6, 0, 1, 1);
+
+        pushButton_8 = new QPushButton(frame);
+        pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
+
+        gridLayout_2->addWidget(pushButton_8, 7, 0, 1, 1);
+
+        pushButton_9 = new QPushButton(frame);
+        pushButton_9->setObjectName(QString::fromUtf8("pushButton_9"));
+
+        gridLayout_2->addWidget(pushButton_9, 8, 0, 1, 1);
+
+        pushButton_2 = new QPushButton(frame);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+
+        gridLayout_2->addWidget(pushButton_2, 1, 0, 1, 1);
+
+        pushButton_4 = new QPushButton(frame);
+        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+
+        gridLayout_2->addWidget(pushButton_4, 3, 0, 1, 1);
+
+        pushButton_3 = new QPushButton(frame);
+        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
+
+        gridLayout_2->addWidget(pushButton_3, 2, 0, 1, 1);
+
+        pushButton = new QPushButton(frame);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+
+        gridLayout_2->addWidget(pushButton, 0, 0, 1, 1);
+
+        pushButton_5 = new QPushButton(frame);
+        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
+
+        gridLayout_2->addWidget(pushButton_5, 4, 0, 1, 1);
+
+        pushButton_10 = new QPushButton(frame);
+        pushButton_10->setObjectName(QString::fromUtf8("pushButton_10"));
+
+        gridLayout_2->addWidget(pushButton_10, 9, 0, 1, 1);
+
+
+        horizontalLayout->addLayout(gridLayout_2);
+
         labelPixmap = new QLabel(frame);
         labelPixmap->setObjectName(QString::fromUtf8("labelPixmap"));
 
@@ -354,7 +421,7 @@ public:
         TestPangoClass->setStatusBar(statusBar);
         menuBar = new QMenuBar(TestPangoClass);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 905, 17));
+        menuBar->setGeometry(QRect(0, 0, 905, 21));
         TestPangoClass->setMenuBar(menuBar);
 
         retranslateUi(TestPangoClass);
@@ -365,7 +432,17 @@ public:
     void retranslateUi(QMainWindow *TestPangoClass)
     {
         TestPangoClass->setWindowTitle(QApplication::translate("TestPangoClass", "TestPango", 0, QApplication::UnicodeUTF8));
-        labelPixmap->setText("hello"/*QString()*/);
+        pushButton_6->setText(QApplication::translate("TestPangoClass", "\330\255\342\200\216", 0, QApplication::UnicodeUTF8));
+        pushButton_7->setText(QApplication::translate("TestPangoClass", "\330\256\342\200\216", 0, QApplication::UnicodeUTF8));
+        pushButton_8->setText(QApplication::translate("TestPangoClass", "\330\257\342\200\216", 0, QApplication::UnicodeUTF8));
+        pushButton_9->setText(QApplication::translate("TestPangoClass", "\330\260\342\200\216", 0, QApplication::UnicodeUTF8));
+        pushButton_2->setText(QApplication::translate("TestPangoClass", "\330\250\342\200\216", 0, QApplication::UnicodeUTF8));
+        pushButton_4->setText(QApplication::translate("TestPangoClass", "\330\253\342\200\216", 0, QApplication::UnicodeUTF8));
+        pushButton_3->setText(QApplication::translate("TestPangoClass", "\330\252\342\200\216", 0, QApplication::UnicodeUTF8));
+        pushButton->setText(QApplication::translate("TestPangoClass", "\330\243\342\200\216", 0, QApplication::UnicodeUTF8));
+        pushButton_5->setText(QApplication::translate("TestPangoClass", "\330\254\342\200\216", 0, QApplication::UnicodeUTF8));
+        pushButton_10->setText(QApplication::translate("TestPangoClass", "Clear", 0, QApplication::UnicodeUTF8));
+        labelPixmap->setText(QString());
         groupBox->setTitle(QApplication::translate("TestPangoClass", "GroupBox", 0, QApplication::UnicodeUTF8));
         label_3->setText(QApplication::translate("TestPangoClass", "Text", 0, QApplication::UnicodeUTF8));
         label_18->setText(QApplication::translate("TestPangoClass", "X", 0, QApplication::UnicodeUTF8));

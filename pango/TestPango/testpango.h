@@ -24,11 +24,23 @@ private:
 
 private slots:
 	void onApplyAttributes();
+	void appendText1();
+	void appendText2();
+	void appendText3();
+	void appendText4();
+	void appendText5();
+	void appendText6();
+	void appendText7();
+	void appendText8();
+	void appendText9();
+	void appendText10();
 
 private:
 	Ui::TestPangoClass ui;
 
 	QImage m_image;
+	QString str;
+	int idx;
 };
 
 #endif // TESTPANGO_H
